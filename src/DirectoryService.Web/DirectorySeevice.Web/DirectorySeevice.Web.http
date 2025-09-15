@@ -1,0 +1,6 @@
+@DirectorySeevice.Web_HostAddress = http://localhost:5251
+
+GET {{DirectorySeevice.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
