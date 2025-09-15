@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{A1AB20A5-C34C-42A7-9256-E8065E5E7E67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryService.Domain", "src\Domain\DirectoryService.Domain.csproj", "{A1AB20A5-C34C-42A7-9256-E8065E5E7E67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectorySeevice.Web", "src\DirectoryService.Web\DirectorySeevice.Web\DirectorySeevice.Web.csproj", "{50B6DC80-E592-483E-BAAA-FA6160C64897}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryService.Web", "src\DirectoryService.Web\DirectorySeevice.Web\DirectoryService.Web.csproj", "{50B6DC80-E592-483E-BAAA-FA6160C64897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryService.Presenters", "src\DirectoryService.Presenters\DirectoryService.Presenters.csproj", "{ADFDB83B-EC9D-4512-B3D4-D412F08F95A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{50B6DC80-E592-483E-BAAA-FA6160C64897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50B6DC80-E592-483E-BAAA-FA6160C64897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50B6DC80-E592-483E-BAAA-FA6160C64897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFDB83B-EC9D-4512-B3D4-D412F08F95A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFDB83B-EC9D-4512-B3D4-D412F08F95A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFDB83B-EC9D-4512-B3D4-D412F08F95A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFDB83B-EC9D-4512-B3D4-D412F08F95A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
