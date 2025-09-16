@@ -9,7 +9,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.UseSwaggerUI(options=> options.SwaggerEndpoint("/openapi/v1/swagger.json","DerectoryService"));
+    app.UseSwaggerUI(options=> options.SwaggerEndpoint("/openapi/v1.json","DerectoryService"));
 }
 
 app.MapControllers();

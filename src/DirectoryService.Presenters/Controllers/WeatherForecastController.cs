@@ -6,6 +6,10 @@ namespace DirectorySeevice.Web.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        
+        [HttpGet]
+        public void Get()
+        {
+           
+        }
     }
 }
